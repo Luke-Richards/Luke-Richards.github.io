@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import TypingEffectBox from './components/typingEffectBox';
 import React, { useEffect } from 'react';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
           <code>Luke Richards</code>
         </p>
       </header>
+      <TypingEffectBox/>
     </div>
   );
 }

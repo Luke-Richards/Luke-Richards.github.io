@@ -12,6 +12,13 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.TypingEffectContainer {
+  height: 600px;
+  width: 200px;
+  background-color: yellow;
+  text-wrap: nowrap;
+  /*word-wrap: break-word;*/
+}
 /*
 @keyframes App-logo-spin {
   from {

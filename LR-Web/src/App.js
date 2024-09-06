@@ -9,12 +9,22 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          <code>Luke Richards</code>
-        </p>
-      </header>
-      <TypingEffectBox/>
+      <div className='backgroundContainer'>
+      </div>
+      <div className='foregroundContainer'>
+        <header className="App-header">
+          <p>
+            <code>Luke Richards</code>
+          </p>
+        </header>
+        <div className='content'>
+          <TypingEffectBox/>
+          <div className='content'></div>
+        </div>
+        
+      </div>
+      
+      
     </div>
   );
 }

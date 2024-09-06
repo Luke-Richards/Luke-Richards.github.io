@@ -1,24 +1,89 @@
 .App {
   text-align: center;
+  height: 100vh;
+  background-color: #bdc7ad;
 }
 .App-header {
   background-color: #282c34;
   min-height: 100px;
   height: 10vh;
   display: flex;
+  flex: 1;
+  flex-grow: 0;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
-.TypingEffectContainer {
-  height: 600px;
-  width: 200px;
-  background-color: yellow;
-  text-wrap: nowrap;
-  /*word-wrap: break-word;*/
+
+.backgroundContainer {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  z-index: 1;
+  flex-grow: 1;
+  
 }
+.foregroundContainer {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  z-index: 2;
+  flex-direction: column;
+  
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  flex: 4;
+  align-items: stretch;
+  background-image: linear-gradient(#282c34, #bdc7ad);
+}
+
+.TypingEffectContainer {
+  
+  flex: 1;
+  background-image: linear-gradient(#282c34, #bdc7ad);
+  overflow: hidden;
+  flex-direction: column-reverse;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  /*word-wrap: break-word;*/
+  
+}
+.TypingEffectText {
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  display: flex;
+  color: #282c34;
+  text-wrap: nowrap;
+  white-space: pre-wrap;
+  text-align: left;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 @keyframes App-logo-spin {
   from {

@@ -19,7 +19,12 @@ function App() {
         </header>
         <div className='content'>
           <TypingEffectBox/>
-          <div className='content'></div>
+          <div className='content'>
+            <div className='homepageContent'>
+            <div className='gradientTransition'></div>
+            <p className='homepageContentInner'>hello world            asdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd</p>
+            </div>
+          </div>
         </div>
         
       </div>

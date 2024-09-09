@@ -22,9 +22,10 @@ function App() {
           <div className='content'>
             <div className='homepageContent'>
             <div className='gradientTransition'></div>
-            <p className='homepageContentInner'>hello world            asdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd</p>
+            <p className='homepageContentInner'>hello world</p>
             </div>
           </div>
+          
         </div>
         
       </div>
